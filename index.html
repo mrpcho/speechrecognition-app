@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>구독자 10만 가즈아!!!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        
+        <div name="logo">
+            <a href="https://www.naver.com/"> <img class='imageSize' src="./Logo.png" alt="Craftsman Mentality Logo" > </a>
+        </div>
+
+        <div class = 'center' name="app-description">
+            <h1>원하는 것을 10만번 외치는 앱!</h1>
+            <h1 id="counting">카운터: </h1>
+        </div>
+            
+        <div name="input/output">
+        <input class="inputText" type="text" id="sentence" placeholder="원하는 것을 입력 후 엔터.">
+            <div id="output" class="outputText"></div>
+            <h2 style="margin-left:auto; margin-right:auto; text-align:center; width: 300px">마이크를 허용하고<br> <span id="desire">"원하는 것을"</span> <br>10만번 외쳐보세요</h2>
+        </div>
+
+        <div class="buttons" name="record-stop">
+            <button class = "startButton" id="startButton" >Start Recording</button>
+            <button class = "stopButton" id="stopButton" disabled="true">Stop Recording</button>
+        </div>
+
+        <script type="text/javascript" src="./myscript.js"></script>
+    </body>
+</html>
